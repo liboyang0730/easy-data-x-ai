@@ -3,9 +3,9 @@ import { defineConfig } from 'vitepress'
 
 // 1. 获取环境变量并判断
 // 如果环境变量 EDGEONE 等于 '1'，说明在 EdgeOne 环境，使用根路径 '/'
-// 否则默认是 GitHub Pages 环境，使用仓库子路径 '/easy-data-x-ai-for-devs/'
+// 否则默认是 GitHub Pages 环境，使用仓库子路径 '/easy-data-x-ai/'
 const isEdgeOne = process.env.EDGEONE === '1'
-const baseConfig = isEdgeOne ? '/' : '/easy-data-x-ai-for-devs/'
+const baseConfig = isEdgeOne ? '/' : '/easy-data-x-ai/'
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -19,7 +19,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/datawhale-logo.png',
     nav: [
-      { text: 'PDF 版本下载', link: 'https://github.com/liboyang0730/easy-data-x-ai-for-devs/releases' },
+      { text: 'PDF 版本下载', link: 'https://github.com/liboyang0730/easy-data-x-ai/releases' },
     ],
     search: {
       provider: 'local',
@@ -75,11 +75,11 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/liboyang0730/easy-data-x-ai-for-devs' }
+      { icon: 'github', link: 'https://github.com/liboyang0730/easy-data-x-ai' }
     ],
 
     editLink: {
-      pattern: 'https://github.com/liboyang0730/easy-data-x-ai-for-devs/blob/main/docs/:path'
+      pattern: 'https://github.com/liboyang0730/easy-data-x-ai/blob/main/docs/:path'
     },
 
     footer: {

@@ -15,7 +15,7 @@
 *注：这里写你的项目所面向的受众，本项目能给他们带来什么，对他们的基础能力要求有哪些*
 
 ## 在线阅读
-https://liboyang0730.github.io/easy-data-x-ai-for-devs/
+https://liboyang0730.github.io/easy-data-x-ai
 
 ## 目录
 *这里写你的项目目录，及其完成状态，已完成的部分添加上跳转链接*
