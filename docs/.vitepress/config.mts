@@ -42,8 +42,12 @@ export default defineConfig({
     },
     sidebar: [
       {
+        text: '第 1 章：公共基础部分',
+        collapsed: false,
         items: [
-          { text: '第 1 章：第 1 章的标题', link: '/chapter1/' },
+          { text: '章节概览', link: '/chapter1/' },
+          { text: 'F1：AI 必知必会（一）—— 大模型的本质与边界', link: '/chapter1/F1：AI 必知必会（一） —— 大模型的本质与边界' },
+          { text: 'F2：AI 必知必会（二）—— AI Agent 全景图', link: '/chapter1/F2：AI 必知必会（二） —— AI Agent 全景图' },
           { text: '第 2 章：第 2 章的标题',
             items: [
               { text: '第 2.1 节：第 2.1 节的标题', link: '/chapter2/chapter2_1' },
