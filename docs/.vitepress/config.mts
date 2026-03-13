@@ -54,22 +54,22 @@ export default defineConfig({
         text: '道篇',
         collapsed: false,
         items: [
-          { text: 'P1：AI Agent 场景识别', link: '/daopian/P1' },
-          { text: 'P2：Agentic RAG 产品设计', link: '/daopian/P2' },
-          { text: 'P3：Agent 记忆系统设计', link: '/daopian/P3' },
-          { text: 'P4：Skill 与知识管理', link: '/daopian/P4' },
-          { text: 'P5：综合案例与度量', link: '/daopian/P5' }
+          { text: 'P1：AI Agent 场景识别', link: '/pm/P1' },
+          { text: 'P2：Agentic RAG 产品设计', link: '/pm/P2' },
+          { text: 'P3：Agent 记忆系统设计', link: '/pm/P3' },
+          { text: 'P4：Skill 与知识管理', link: '/pm/P4' },
+          { text: 'P5：综合案例与度量', link: '/pm/P5' }
         ]
       },
       {
         text: '术篇',
         collapsed: false,
         items: [
-          { text: 'D1：大模型 API 基础', link: '/shupian/D1' },
-          { text: 'D2：AI 应用的数据层', link: '/shupian/D2' },
-          { text: 'D3：Agentic RAG 实战', link: '/shupian/D3' },
-          { text: 'D4：Agent 开发与记忆系统', link: '/shupian/D4' },
-          { text: 'D5：Skill、MCP 与综合项目', link: '/shupian/D5' }
+          { text: 'D1：大模型 API 基础', link: '/dev/D1' },
+          { text: 'D2：AI 应用的数据层', link: '/dev/D2' },
+          { text: 'D3：Agentic RAG 实战', link: '/dev/D3' },
+          { text: 'D4：Agent 开发与记忆系统', link: '/dev/D4' },
+          { text: 'D5：Skill、MCP 与综合项目', link: '/dev/D5' }
         ]
       }
     ],
