@@ -1,0 +1,11 @@
+---
+description: 所有改动须经作者 review 后再提交
+globs: 
+alwaysApply: true
+---
+
+# Git 提交流程
+
+- 完成代码或文档改动后，**不要**自动执行 `git add`、`git commit`、`git push`。
+- 先展示改动内容（或 diff），等作者 **review 并明确同意** 后再执行提交相关命令。
+- 若作者说「提交」「可以提交」「push」等，再执行 add/commit/push。
