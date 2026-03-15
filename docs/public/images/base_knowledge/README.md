@@ -2,6 +2,16 @@
 
 本目录存放 F1、F2 文档的本地图片，避免依赖内网链接无法访问。
 
+## 目录结构
+
+```
+base_knowledge/
+├── F1/          # F1：AI 必知必会（一）
+│   └── F1-01.png ~ F1-06.png, F1-05.webp
+└── F2/          # F2：AI 必知必会（二）
+    └── F2-01.png ~ F2-14.png
+```
+
 ## 下载方式
 
 **在内网环境**运行以下命令即可自动下载所有图片：
@@ -10,9 +20,11 @@
 node scripts/download-base-knowledge-images.mjs
 ```
 
-若无法运行脚本，可从飞书文档手动保存图片并放入本目录，按以下文件名命名。
+若无法运行脚本，可从飞书文档手动保存图片并放入对应子目录。
 
 ## F1：AI 必知必会（一）
+
+放入 `F1/` 目录：
 
 | 文件名 | 说明 |
 |--------|------|
@@ -25,8 +37,10 @@ node scripts/download-base-knowledge-images.mjs
 
 ## F2：AI 必知必会（二）
 
+放入 `F2/` 目录：
+
 | 文件名 | 说明 |
 |--------|------|
 | F2-01.png ~ F2-14.png | 按文档中出现顺序 |
 
-文档已引用 `/images/base_knowledge/xxx`，放入图片后即可正常显示。
+文档引用路径：`/images/base_knowledge/F1/xxx`、`/images/base_knowledge/F2/xxx`
