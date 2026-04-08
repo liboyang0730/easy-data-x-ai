@@ -5,8 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://liboyang0730.github.io/easy-data-x-ai/">在线阅读</a> · 
-  <a href="https://github.com/liboyang0730/easy-data-x-ai">GitHub 仓库</a> · 
+  <a href="https://liboyang0730.github.io/easy-data-x-ai/">在线阅读</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://open.oceanbase.com/course/760">社区在线课堂</a>
 </p>
 
