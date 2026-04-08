@@ -12,16 +12,6 @@
 
 ---
 
-最近和身边的同事和朋友聊天，几乎所有人都在讨论模型——哪个模型更强、哪个模型更便宜、哪个模型多模态能力更好。
-
-但我们从和用户的沟通中发现，真实业务场景中模型的回答不准确，绝大多数场景都不是模型不行，而是它根本就没拿到正确的数据。AI 助手不够个性化，不是模型不懂你，而是它根本没有关于你的数据；Agent 做不好复杂任务，不是推理能力不足，而是它调用的知识和技能的数据基础有缺陷……
-
-## 🎯 解决什么问题？
-
-`AI 的能力上限 = 模型能力 × 数据质量`，现在 AI 爱好者认知的空白主要在于：**大家没有看到 AI 能力的另一半——数据**。
-
-大多数人只盯着前者，我们这门课程会结合后者（Data），**讲清 Data 在 GenAI/Agent 中扮演的角色**——给出一个以数据为视角的完整认知框架。
-
 ## 📚 这门课程适合谁？
 
 > 双轨并行，论道与习术
@@ -93,17 +83,20 @@
   </tbody>
 </table>
 
+> 💡 **核心理念**：洞察先行，自然跟随。当你看懂了数据，才是真正看懂了 AI 的未来。
+
 ## 🚀 快速开始
 
 ### 在线阅读
 
 访问 [https://liboyang0730.github.io/easy-data-x-ai](https://liboyang0730.github.io/easy-data-x-ai) 在线阅读课程内容。
 
-### 本地运行
+### 本地阅读
 
 ```bash
 # 克隆仓库
 git clone https://github.com/liboyang0730/easy-data-x-ai.git
+
 cd easy-data-x-ai
 
 # 安装依赖
@@ -113,7 +106,7 @@ npm install
 npm run docs:dev
 ```
 
-### 运行示例代码
+### 本地运行示例代码
 
 ```bash
 cd code
@@ -138,37 +131,37 @@ python3 d1_1_base.py
 
 ## 👥 贡献者名单
 
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/liboyang0730">
-        <img src="https://github.com/liboyang0730.png" width="100px;" alt="liboyang0730"/>
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <a href="https://github.com/liboyang0730">
+          <img src="https://github.com/liboyang0730.png" width="100px;" alt="liboyang0730"/>
+          <br />
+          <sub><b>Zlatan (liboyang0730)</b></sub>
+        </a>
         <br />
-        <sub><b>Zlatan (liboyang0730)</b></sub>
-      </a>
-      <br />
-      <sub>项目负责人</sub>
-    </td>
-    <td align="center">
-      <a href="https://github.com/webup">
-        <img src="https://github.com/webup.png" width="100px;" alt="webup"/>
+        <sub>项目维护者</sub>
+      </td>
+      <td align="center">
+        <a href="https://github.com/webup">
+          <img src="https://github.com/webup.png" width="100px;" alt="webup"/>
+          <br />
+          <sub><b>Haili Zhang (webup)</b></sub>
+        </a>
         <br />
-        <sub><b>Haili Zhang (webup)</b></sub>
-      </a>
-      <br />
-      <sub>项目维护者</sub>
-    </td>
-  </tr>
-</table>
+        <sub>课程共建者</sub>
+      </td>
+    </tr>
+  </table>
+</div>
 
-## 📄 LICENSE
+## 关注我们
+<div align=center>
+<p>欢迎扫描下方二维码加入 Data x AI 课程交流群</p>
+<img src="https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/base_knowledge/F0/F0-20.png" width = "180" height = "180">
+</div>
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
-  <img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" />
-</a>
+## LICENSE
 
-本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
-
----
-
-> 💡 **核心理念**：洞察先行，自然跟随。当你看懂了数据，才是真正看懂了 AI 的未来。
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
