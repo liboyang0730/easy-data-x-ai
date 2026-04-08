@@ -20,7 +20,7 @@ export default defineConfig({
     logo: '/datawhale-logo.png',
     nav: [
       { text: 'GitHub 仓库', link: 'https://github.com/liboyang0730/easy-data-x-ai' },
-      { text: 'PDF 版本下载', link: 'https://github.com/liboyang0730/easy-data-x-ai/releases' },
+      { text: '社区在线课堂', link: 'https://open.oceanbase.com/course/760' },
     ],
     search: {
       provider: 'local',
