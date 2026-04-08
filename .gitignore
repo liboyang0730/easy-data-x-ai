@@ -1,3 +1,6 @@
 node_modules/
 docs/.vitepress/dist
 docs/.vitepress/cache
+
+# IDE 配置
+.cursor/
