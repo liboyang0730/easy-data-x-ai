@@ -46,7 +46,7 @@ export default defineConfig({
         text: '第一章：公共基础知识',
         collapsed: false,
         items: [
-          { text: 'F0：课前闲聊 —— OpenClaw 为什么越用越好用？', link: '/base_knowledge/F0 课程稿：课前闲聊 —— OpenClaw 为什么越用越好用？ (1)' },
+          { text: 'F0：课前闲聊 —— OpenClaw 为什么越用越好用？', link: '/base_knowledge/F0 课程稿：课前闲聊 —— OpenClaw 为什么越用越好用？' },
           { text: 'F1：AI 必知必会（一）—— 大模型的本质与边界', link: '/base_knowledge/F1 课程稿：AI 必知必会（一） —— 大模型的本质与边界' },
           { text: 'F2：AI 必知必会（二）—— AI Agent 全景图', link: '/base_knowledge/F2 课程稿：AI 必知必会（二） —— AI Agent 全景图' }
         ]
