@@ -4,10 +4,33 @@
 >
 > 在"术篇"的课程中，我们每期都会附带几个 python 文件（例如本文对应的几个 d1_n_xxx.py），填上你的 API Key 就可以直接运行。
 >
-> 本期课程使用 **LangChain**（`langchain-openai`）作为开发框架。LangChain 是目前最流行的大模型应用开发框架之一，它在原生 OpenAI SDK 之上提供了更高层的抽象——统一的模型接口、标准化的工具调用、便捷的流式处理——让你用更少的代码做更多的事。更重要的是，当你未来需要切换模型供应商（从 OpenAI 换到 Anthropic、Google 等），LangChain 的代码几乎不用改。
+
+本期课程使用 **LangChain**（`langchain-openai`）作为开发框架。LangChain 是目前最流行的大模型应用开发框架之一，它在原生 OpenAI SDK 之上提供了更高层的抽象——统一的模型接口、标准化的工具调用、便捷的流式处理——让你用更少的代码做更多的事。更重要的是，当你未来需要切换模型供应商（从 OpenAI 换到 Anthropic、Google 等），LangChain 的代码几乎不用改。
+
+
+> 本期课程涉及的代码，均在 https://github.com/liboyang0730/easy-data-x-ai/tree/main/code 中。
+>
+> 复制 .env.example 为 .env，并在 .env
+ 文件中填写你的真实 API Key，即可直接执行对应章节的示例代码。
 >
 > 推荐大家可以通过在[硅基流动](https://www.siliconflow.cn/)上注册账号，获取 API 密钥，使用免费模型 tencent/Hunyuan-MT-7B 或者 deepseek-ai/DeepSeek-OCR 来亲自体验一下。
 >
+
+```
+cd easy-data-x-ai/code
+
+# 安装依赖
+pip install --upgrade -r requirements.txt
+
+# 复制 .env.example 为 .env
+cp .env.example .env
+
+# 在 .env 文件中填写你的真实 API Key
+vim .env
+
+# 运行示例代码
+python D1/d1_1_base.py
+```
 
 ## 开场：从"用嘴说"到"写代码控制"
 你大概率已经是 ChatGPT 或 Claude 的熟练用户了。打开网页，输入问题，等待回答。有时候你还会精心设计 Prompt，试图让 AI 的回答更准确、更符合你的要求。

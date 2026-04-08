@@ -21,7 +21,7 @@ code/
 ### 1. 安装依赖
 
 ```bash
-pip install -r requirements.txt
+pip install --upgrade -r requirements.txt
 ```
 
 ### 2. 配置 API Key

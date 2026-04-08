@@ -128,15 +128,6 @@
 学完之后，能让大家获得从中快速构建完整 AI 应用（知识库、记忆、Agent）的系统认知，掌握可以立即上手并看到效果的工具，以及清晰的架构参考。我们相信，最好的学习是亲手实现它。
 
 
-
-
-
-
-
-
-
-
-
 <table>
   <thead>
     <tr><th>篇章</th><th>课程编号</th><th>上线时间</th><th>课程标题</th></tr>
@@ -166,9 +157,6 @@
 在这里，你将收获的不仅是知识与技能，更会获得一个看待 AI 产品的全新视角。
 
 最后，欢迎各位对 AI 感兴趣的老师加入 Data x AI 交流群，和我们一起玩耍~
-
-![](/images/dev/D1/D1-01.webp)
-
-[点击此处，立即开始学习（此处替换为课程链接）]
+![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/base_knowledge/F0/F0-20.png)
 
 > 我们相信，当你看懂了数据，才是真正看懂了 AI 的未来。

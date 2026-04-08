@@ -1,15 +1,15 @@
 # D1 课程代码依赖
 
 # LangChain 核心
-langchain>=0.3.0
-langchain-openai>=0.2.0
-langchain-core>=0.3.0
+langchain>=1.2.15
+langchain-openai>=1.1.12
+langchain-core>=0.3.29
 
 # 环境变量管理
-python-dotenv>=1.0.0
+python-dotenv>=1.2.2
 
 # 向量数据库（可选，用于 d1_5 和 d1_6）
-pyseekdb>=0.1.0
+pyseekdb>=1.2.0.post1
 
 # Agent 相关（可选，用于 d1_6）
-langgraph>=0.2.0
+langgraph>=1.1.6
