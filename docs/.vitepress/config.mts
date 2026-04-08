@@ -19,6 +19,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/datawhale-logo.png',
     nav: [
+      { text: 'GitHub 仓库', link: 'https://github.com/liboyang0730/easy-data-x-ai' },
       { text: 'PDF 版本下载', link: 'https://github.com/liboyang0730/easy-data-x-ai/releases' },
     ],
     search: {
@@ -84,7 +85,7 @@ export default defineConfig({
     },
 
     footer: {
-      message: 'Built with VitePress',
+      message: 'Built with VitePress | <a href="https://github.com/liboyang0730/easy-data-x-ai" target="_blank">GitHub 仓库</a>',
       copyright: 'Licensed under CC BY-NC-SA 4.0'
     }
   }
