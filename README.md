@@ -1,57 +1,174 @@
-<h1 align="center"> 项目名称（⚠️ Alpha内测版 / 🧪 Beta公测版） </h1>
+<h1 align="center">Easy Data X AI（⚠️ Alpha 内测版）</h1>
 
-> [!CAUTION]
-> ⚠️ Alpha内测版本警告：此为早期内部构建版本，尚不完整且可能存在错误，欢迎大家提Issue反馈问题或建议。
+<p align="center">
+  <em>面向所有 AI 爱好者的 Data 与 AI 基础知识入门教程</em>
+</p>
 
-或者
+<p align="center">
+  <a href="https://liboyang0730.github.io/easy-data-x-ai/">在线阅读</a> · 
+  <a href="https://github.com/liboyang0730/easy-data-x-ai">GitHub 仓库</a> · 
+  <a href="https://open.oceanbase.com/course/760">社区在线课堂</a>
+</p>
 
-> [!WARNING]
-> 🧪 Beta公测版本提示：教程主体已完成，正在优化细节，欢迎大家提Issue反馈问题或建议。
+---
 
-*这里写项目的各类介绍信息、背景、动机等内容*
+最近和身边的同事和朋友聊天，几乎所有人都在讨论模型——哪个模型更强、哪个模型更便宜、哪个模型多模态能力更好。
 
-## 项目受众
+但我们从和用户的沟通中发现，真实业务场景中模型的回答不准确，绝大多数场景都不是模型不行，而是它根本就没拿到正确的数据。AI 助手不够个性化，不是模型不懂你，而是它根本没有关于你的数据；Agent 做不好复杂任务，不是推理能力不足，而是它调用的知识和技能的数据基础有缺陷……
 
-*注：这里写你的项目所面向的受众，本项目能给他们带来什么，对他们的基础能力要求有哪些*
+## 🎯 解决什么问题？
 
-## 在线阅读
-https://liboyang0730.github.io/easy-data-x-ai
+`AI 的能力上限 = 模型能力 × 数据质量`，现在 AI 爱好者认知的空白主要在于：**大家没有看到 AI 能力的另一半——数据**。
 
-## 目录
-*这里写你的项目目录，及其完成状态，已完成的部分添加上跳转链接*
+大多数人只盯着前者，我们这门课程会结合后者（Data），**讲清 Data 在 GenAI/Agent 中扮演的角色**——给出一个以数据为视角的完整认知框架。
 
-|  章节名   | 简介 | 状态 |
-|  ----  | ---- | ---- |
-| [第1章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/base_knowledge)  | xxx | ✅ |
-| [第2章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter2)  | xxx | ✅ |
-| [第3章 xxx](https://github.com/datawhalechina/repo-template/blob/main/docs/chapter3)  | xxx | ✅ |
-| 第4章  | xxx | 🚧 |
+## 📚 这门课程适合谁？
 
-## 贡献者名单
+> 双轨并行，论道与习术
 
-| 姓名 | 职责 | 简介 |
-| :----| :---- | :---- |
-| 小明 | 项目负责人 | 一个理想主义者 |
-| 小红 | 第1章贡献者 | 小明的朋友 |
-| 小强 | 第2章贡献者 | 小明的朋友 |
+为了满足不同角色的学习需求，我们将课程精心设计为两条路径："道篇"与"术篇"。
 
-*注：表头可自定义，但必须在名单中标明项目负责人*
+### 道篇：悟其道（零基础 AI 爱好者和产品决策者的"心法篇"）
 
-## 参与贡献
+**适合人群：** 零基础 AI 爱好者、产品决策者
 
-- 如果你发现了一些问题，可以提Issue进行反馈，如果提完没有人回复你可以联系[保姆团队](https://github.com/datawhalechina/DOPMC/blob/main/OP.md)的同学进行反馈跟进~
-- 如果你想参与贡献本项目，可以提Pull Request，如果提完没有人回复你可以联系[保姆团队](https://github.com/datawhalechina/DOPMC/blob/main/OP.md)的同学进行反馈跟进~
-- 如果你对 Datawhale 很感兴趣并想要发起一个新的项目，请按照[Datawhale开源项目指南](https://github.com/datawhalechina/DOPMC/blob/main/GUIDE.md)进行操作即可~
+**学完收获：**
+- 🎯 场景判断力：学会评估"这个需求适不适合做 Agent"，避免在立项之初就走上弯路
+- 🔍 归因决策力：获得一套"三层度量框架"，精准定位问题出在数据层、模型层还是业务层
+- 🏗️ 系统设计力：理解 RAG、MCP、Skill、Memory 背后的产品设计哲学
 
-## 关注我们
+### 术篇：用其术（开发者的"功法篇"）
 
-<div align=center>
-<p>扫描下方二维码关注公众号：Datawhale</p>
-<img src="https://raw.githubusercontent.com/datawhalechina/pumpkin-book/master/res/qrcode.jpeg" width = "180" height = "180">
-</div>
+**适合人群：** 已能调用 LLM API 的开发者
 
-## LICENSE
+**学完收获：**
+- 💪 坚实的工程基础：掌握流式输出（Streaming）和工具调用（Tool Use）
+- 🗄️ 完整的数据层构建经验：基于轻量级 AI Native 数据库从零搭建数据层
+- 📊 看得见的性能差距：通过对比实验见证"混合检索"与"纯向量检索"的效果差异
+- 🤖 从零到一的 Agent 构建：为 Agent 加上记忆系统，教会它使用技能
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+## 📖 课程目录
 
-*注：默认使用CC 4.0协议，也可根据自身项目情况选用其他协议*
+```
+公共基础篇
+├── F0：课前闲聊 —— OpenClaw 为什么越用越好用？
+├── F1：大模型的本质与边界
+└── F2：AI Agent 的完整图景
+
+道篇（P1-P5）
+├── P1：找准 Agent 的用武之地 —— AI Agent 场景识别 ✅
+├── P2：让 Agent 会查资料 —— RAG 产品设计 🚧
+├── P3：让 Agent 真正记住你 —— 记忆系统设计 🚧
+├── P4：把经验变可复用 —— Skill 与知识管理 🚧
+└── P5：用数据验证价值 —— 案例与度量 🚧
+
+术篇（D1-D5）
+├── D1：打通 Agent 与数据 —— 大模型 API 入门 ✅
+├── D2：一个系统搞定 —— 统一 AI Native 数据层实战 🚧
+├── D3：实践出真知 —— Agentic RAG 实战 🚧
+├── D4：记哪些、忘哪些？—— Agent 记忆系统开发 🚧
+└── D5：授 AI 以渔 —— 综合实战，从 Skill 开发到 MCP 标准化 🚧
+```
+
+## 📅 课程安排
+
+<table>
+  <thead>
+    <tr><th>篇章</th><th>课程编号</th><th>上线时间</th><th>课程标题</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">公共基础篇</td><td>F0</td><td>已上线</td><td>课前闲聊 —— OpenClaw 为什么越用越好用？</td></tr>
+    <tr><td>F1</td><td>已上线</td><td>大模型的本质与边界</td></tr>
+    <tr><td>F2</td><td>已上线</td><td>AI Agent 的完整图景</td></tr>
+    <tr><td rowspan="5">道篇</td><td>P1</td><td>已上线</td><td>找准 Agent 的用武之地 —— AI Agent 场景识别</td></tr>
+    <tr><td>P2</td><td>4 / 15</td><td>让 Agent 会查资料 —— RAG 产品设计</td></tr>
+    <tr><td>P3</td><td>4 / 22</td><td>让 Agent 真正记住你 —— 记忆系统设计</td></tr>
+    <tr><td>P4</td><td>4 / 29</td><td>把经验变可复用 —— Skill 与知识管理</td></tr>
+    <tr><td>P5</td><td>5 / 11</td><td>用数据验证价值 —— 案例与度量</td></tr>
+    <tr><td rowspan="5">术篇</td><td>D1</td><td>已上线</td><td>打通 Agent 与数据 —— 大模型 API 入门</td></tr>
+    <tr><td>D2</td><td>4 / 20</td><td>一个系统搞定 —— 统一 AI Native 数据层实战</td></tr>
+    <tr><td>D3</td><td>4 / 27</td><td>实践出真知 —— Agentic RAG 实战</td></tr>
+    <tr><td>D4</td><td>5 / 6</td><td>记哪些、忘哪些？—— Agent 记忆系统开发</td></tr>
+    <tr><td>D5</td><td>5 / 13</td><td>授 AI 以渔 —— 综合实战，从 Skill 开发到 MCP 标准化</td></tr>
+  </tbody>
+</table>
+
+## 🚀 快速开始
+
+### 在线阅读
+
+访问 [https://liboyang0730.github.io/easy-data-x-ai](https://liboyang0730.github.io/easy-data-x-ai) 在线阅读课程内容。
+
+### 本地运行
+
+```bash
+# 克隆仓库
+git clone https://github.com/liboyang0730/easy-data-x-ai.git
+cd easy-data-x-ai
+
+# 安装依赖
+npm install
+
+# 本地预览
+npm run docs:dev
+```
+
+### 运行示例代码
+
+```bash
+cd code
+
+# 安装 Python 依赖
+pip install -r requirements.txt
+
+# 配置 API Key
+cp .env.example .env
+# 编辑 .env 文件，填写你的 API Key
+
+# 运行示例
+cd D1
+python3 d1_1_base.py
+```
+
+## 🤝 参与贡献
+
+- 如果你发现了一些问题，可以提 [Issue](https://github.com/liboyang0730/easy-data-x-ai/issues) 进行反馈
+- 如果你想参与贡献本项目，欢迎提 [Pull Request](https://github.com/liboyang0730/easy-data-x-ai/pulls)
+- 欢迎加入课程共建，一起完善内容
+
+## 👥 贡献者名单
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/liboyang0730">
+        <img src="https://github.com/liboyang0730.png" width="100px;" alt="liboyang0730"/>
+        <br />
+        <sub><b>Zlatan (liboyang0730)</b></sub>
+      </a>
+      <br />
+      <sub>项目负责人</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/webup">
+        <img src="https://github.com/webup.png" width="100px;" alt="webup"/>
+        <br />
+        <sub><b>Haili Zhang (webup)</b></sub>
+      </a>
+      <br />
+      <sub>项目维护者</sub>
+    </td>
+  </tr>
+</table>
+
+## 📄 LICENSE
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" />
+</a>
+
+本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+
+---
+
+> 💡 **核心理念**：洞察先行，自然跟随。当你看懂了数据，才是真正看懂了 AI 的未来。
