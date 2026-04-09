@@ -28,7 +28,7 @@
 
 为了满足不同角色的学习需求，我们将课程精心设计为两条路径：“道篇”与“术篇”。
 
-![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/course-intro/01.png)
+![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/course-intro/01.png)
 
 ### 道篇
 
@@ -36,7 +36,7 @@
 
 “道篇” ：在这里，我们不谈代码，只论道 —— 建立判断力，理解基础原理，学习做出正确的判断和选择。
 
-![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/course-intro/02.png)
+![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/course-intro/02.png)
 
 学习“道篇”的同学平时不需要写代码，但需要有足够的认知深度来进行一些判断和决策。
 
@@ -62,7 +62,7 @@
 
 “术篇” ：在这里，我们以可运行的代码和可观察的结果为核心，让你在动手实践中建立工程直觉。
 
-![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/course-intro/03.png)
+![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/course-intro/03.png)
 
 不用担心，我们会把代码体验控制在“五分钟跑通”的量级。深度工程细节一律放入“延伸阅读”，不让主线超载。
 
@@ -157,6 +157,6 @@
 在这里，你将收获的不仅是知识与技能，更会获得一个看待 AI 产品的全新视角。
 
 最后，欢迎各位对 AI 感兴趣的老师加入 Data x AI 交流群，和我们一起玩耍~
-![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/base_knowledge/F0/F0-20.png)
+![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/base_knowledge/F0/F0-20.png)
 
 > 我们相信，当你看懂了数据，才是真正看懂了 AI 的未来。

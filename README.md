@@ -1,4 +1,4 @@
-<h1 align="center">Easy Data X AI（⚠️ Alpha 内测版）</h1>
+<h1 align="center">Easy Data X AI（Alpha 内测版，欢迎各位老师参与共建）</h1>
 
 <p align="center">
   <em>面向所有 AI 爱好者的 Data 与 AI 基础知识入门教程</em>

@@ -10,7 +10,7 @@
 本期课程使用 **LangChain**（`langchain-openai`）作为开发框架。LangChain 是目前最流行的大模型应用开发框架之一，它在原生 OpenAI SDK 之上提供了更高层的抽象——统一的模型接口、标准化的工具调用、便捷的流式处理——让你用更少的代码做更多的事。更重要的是，当你未来需要切换模型供应商（从 OpenAI 换到 Anthropic、Google 等），LangChain 的代码几乎不用改。
 
 
-> 本期课程涉及的代码，均在 https://github.com/liboyang0730/easy-data-x-ai/tree/main/code 中。
+> 本期课程涉及的代码，均在 https://github.com/ob-labs/easy-data-x-ai/tree/main/code 中。
 >
 > 复制 .env.example 为 .env，并在 .env
  文件中填写你的真实 API Key，即可直接执行对应章节的示例代码。
@@ -51,19 +51,19 @@ python D1/d1_1_base.py
 其中 Tool Use 是重点中的重点。理解了它，你就理解了 Agent 与外部世界交互的核心机制——后续所有模块的 Agent 能力，都建立在这个机制之上。
 
 <!-- 这是一张图片，ocr 内容为：AGENT 聊天机器人 API USE TOOL 号业 能做事 只能说 -->
-![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/dev/D1/D1-01.png)
+![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/dev/D1/D1-01.png)
 
 ## 第一部分：用 LangChain 调用 Chat 模型——对话的本质是一个列表
 ### Messages：一切都是消息
 当你在 ChatGPT 网页上聊天时，背后发生的事情其实非常简单：你的每一句话和 AI 的每一句回复，都被组织成一个**消息列表**（messages array），整个列表一起发送给模型。
 
 <!-- 这是一张图片，ocr 内容为：MESSAGES消息结构 SYSTEM 人设说明 8 USER 用户提问 ASSISTANT 模型回复 -->
-![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/dev/D1/D1-02.png)
+![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/dev/D1/D1-02.png)
 
 模型并不"记得"之前说了什么——它每次收到的都是一个完整的消息列表，然后基于这个列表生成下一条回复。所谓的"多轮对话"，不过是每次把历史消息重新发一遍。
 
 <!-- 这是一张图片，ocr 内容为：模型没有记忆 第2轮 第1轮 宫甲园 88 每次都传完整历史 -->
-![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/dev/D1/D1-03.png)
+![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/dev/D1/D1-03.png)
 
 每条消息有两个核心字段：**角色**（role）和**内容**（content）。角色有三种：
 
@@ -196,7 +196,7 @@ print()  # 最后换行
 答案是 **Tool Use**（也叫 Function Calling）。
 
 <!-- 这是一张图片，ocr 内容为：TOOLUSE五步流程 STEP . I STEP.3 STEP.2 STEP.4 STEP.5 COB 返回结果 模型声 TOOLMESSAGE 明调用 模型继 代码执行工具 定义工具 续推理 -->
-![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/dev/D1/D1-04.png)
+![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/dev/D1/D1-04.png)
 
 机制是这样的：
 
@@ -220,7 +220,7 @@ Tool Use 不是模型的"内置功能"——它是模型和你的代码之间的
 回到 F2 讲过的那个新员工类比。一个只会说话的新员工，充其量是个"顾问"——你问他问题，他给你建议。但一个能查公司系统、能操作工具、能帮你跑数据的新员工，才是一个真正能帮你做事的"同事"。
 
 <!-- 这是一张图片，ocr 内容为：TOOLUSE是连接层 模型推理层 TOOL USE 连接层 数据 MCP 层 MODULES MEMORY SKILL RAG -->
-![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/dev/D1/D1-05.png)
+![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/dev/D1/D1-05.png)
 
 Tool Use 就是把大模型从"顾问"变成"同事"的机制。
 
@@ -347,7 +347,7 @@ if response.tool_calls:
 这意味着你拥有完全的控制权：你决定模型能用哪些工具、工具连接哪些数据源、返回哪些数据、以什么格式返回。**数据层完全在你手里。**
 
 <!-- 这是一张图片，ocr 内容为：知识库查询完整流程 (2) USER ASKS "SEEKDB支持哪 RETURNS 些检索方式?" TOOL CALL MESSAGE ROBOT DECIDES "需要查知识库" (4) (5) SEEKDB RESULT RETURNS ROBOT GENERATES CODE EXECUTES QUERY ANSWER -->
-![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/dev/D1/D1-06.png)
+![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/dev/D1/D1-06.png)
 
 ## 我们的思考
 讲到这里，你可能已经意识到了一件事：Tool Use 本质上就是 Agent 与数据层之间的标准交互协议。
@@ -376,7 +376,7 @@ if response.tool_calls:
 >
 
 <!-- 这是一张图片，ocr 内容为：课后行动路线图 STEP 5 TOOL USE AGENT封装 MOCK D1_4 STEP 3 D1_6 STEP 1 真实场景 基础调用 D1_5 D1_1~D1_3 安装环境 -->
-![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/dev/D1/D1-07.png)
+![](https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/dev/D1/D1-07.png)
 
 ### 1. 安装 Python
 检查一下是否已经装了：
