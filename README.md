@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://liboyang0730.github.io/easy-data-x-ai/">在线阅读</a> &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://ob-labs.github.io/easy-data-x-ai/">在线阅读</a> &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://open.oceanbase.com/course/760">社区在线课堂</a>
 </p>
 
@@ -88,13 +88,13 @@
 
 ### 在线阅读
 
-访问 [https://liboyang0730.github.io/easy-data-x-ai](https://liboyang0730.github.io/easy-data-x-ai) 在线阅读课程内容。
+访问 [https://ob-labs.github.io/easy-data-x-ai](https://ob-labs.github.io/easy-data-x-ai) 在线阅读课程内容。
 
 ### 本地阅读
 
 ```bash
 # 克隆仓库
-git clone https://github.com/liboyang0730/easy-data-x-ai.git
+git clone https://github.com/ob-labs/easy-data-x-ai.git
 
 cd easy-data-x-ai
 
@@ -124,8 +124,8 @@ python3 d1_1_base.py
 
 ## 🤝 参与贡献
 
-- 如果你发现了一些问题，可以提 [Issue](https://github.com/liboyang0730/easy-data-x-ai/issues) 进行反馈
-- 如果你想参与贡献本项目，欢迎提 [Pull Request](https://github.com/liboyang0730/easy-data-x-ai/pulls)
+- 如果你发现了一些问题，可以提 [Issue](https://github.com/ob-labs/easy-data-x-ai/issues) 进行反馈
+- 如果你想参与贡献本项目，欢迎提 [Pull Request](https://github.com/ob-labs/easy-data-x-ai/pulls)
 - 欢迎加入课程共建，一起完善内容
 
 ## 👥 贡献者名单
@@ -158,7 +158,7 @@ python3 d1_1_base.py
 ## 关注我们
 <div align=center>
 <p>欢迎扫描下方二维码加入 Data x AI 课程交流群</p>
-<img src="https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/base_knowledge/F0/F0-20.png" width = "180" height = "180">
+<img src="https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/base_knowledge/F0/F0-20.png" width = "180" height = "180">
 </div>
 
 ## LICENSE

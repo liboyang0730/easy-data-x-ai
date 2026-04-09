@@ -19,7 +19,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: '/datawhale-logo.png',
     nav: [
-      { text: 'GitHub 仓库', link: 'https://github.com/liboyang0730/easy-data-x-ai' },
+      { text: 'GitHub 仓库', link: 'https://github.com/ob-labs/easy-data-x-ai' },
       { text: '社区在线课堂', link: 'https://open.oceanbase.com/course/760' },
     ],
     search: {
@@ -77,15 +77,15 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/liboyang0730/easy-data-x-ai' }
+      { icon: 'github', link: 'https://github.com/ob-labs/easy-data-x-ai' }
     ],
 
     editLink: {
-      pattern: 'https://github.com/liboyang0730/easy-data-x-ai/blob/main/docs/:path'
+      pattern: 'https://github.com/ob-labs/easy-data-x-ai/blob/main/docs/:path'
     },
 
     footer: {
-      message: 'Built with VitePress | <a href="https://github.com/liboyang0730/easy-data-x-ai" target="_blank">GitHub 仓库</a>',
+      message: 'Built with VitePress | <a href="https://github.com/ob-labs/easy-data-x-ai" target="_blank">GitHub 仓库</a>',
       copyright: 'Licensed under CC BY-NC-SA 4.0'
     }
   }
