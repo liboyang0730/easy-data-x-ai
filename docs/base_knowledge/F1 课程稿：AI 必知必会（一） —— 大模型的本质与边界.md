@@ -293,3 +293,16 @@ AI 的能力上限 = 数据质量 × 模型能力
 > 欢迎各位继续关注下期课程！
 >
 
+## 本期课程视频
+
+<iframe
+    src="//player.bilibili.com/player.html?bvid=BV1CCAuzRESJ&autoplay=0"
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true"
+    width="100%"
+    height="500">
+</iframe>
+
