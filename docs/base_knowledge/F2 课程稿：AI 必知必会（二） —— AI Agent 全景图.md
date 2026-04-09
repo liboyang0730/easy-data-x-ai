@@ -570,3 +570,8 @@ RAG、Memory、Skill、MCP 看起来是不同的技术概念，但它们都是 A
 <!-- 这是一张图片，ocr 内容为：F2你在这里 道篇PM路径 </>术篇DEV路径 P1:AI AGENT场景识别 D1:大模型AP API基础 TOOLLUSE是桥梁 立项先问数据在哪 EASY DATA X AI 下期见 -->
 ![](https://raw.githubusercontent.com/liboyang0730/easy-data-x-ai/main/docs/public/images/base_knowledge/F2/F2-16.png)
 
+## 课后习题
+
+[【Exam】公共基础篇（二）：AI Agent 全景图](https://open.oceanbase.com/exam/760?junit=15702)
+
+通过课后小测，即可获取 OceanBase 社区积分，换取社区定制礼品~
