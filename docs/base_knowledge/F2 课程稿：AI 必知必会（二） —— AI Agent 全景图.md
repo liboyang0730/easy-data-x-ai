@@ -8,7 +8,18 @@
 
 接下来，我们会带大家一起去理解这张 AI Agent 地图上的每一项能力，底层都和数据有着什么密切的关系。
 
+## 本期课程视频
 
+<iframe
+    src="//player.bilibili.com/player.html?bvid=BV1jxXPBiEnb&autoplay=0"
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true"
+    width="100%"
+    height="500">
+</iframe>
 
 ## 一个思考题
 上一期课程中，我们提到了一个非常核心的公式 —— **AI 的能力上限 = 模型能力 × 数据质量**。

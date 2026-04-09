@@ -32,6 +32,19 @@
 
 我们希望大家能通过这期课程，消除对大模型的两种常见误解 —— 既不要神话它（它不是万能的），也不要轻视它（它的能力确实很强）。
 
+## 本期课程视频
+
+<iframe
+    src="//player.bilibili.com/player.html?bvid=BV1CCAuzRESJ&autoplay=0"
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true"
+    width="100%"
+    height="500">
+</iframe>
+
 ## 开门见山
 现在几乎所有人都在讨论模型 —— 哪个模型更强、哪个模型更便宜、哪个模型多模态能力更好。
 
@@ -292,17 +305,3 @@ AI 的能力上限 = 数据质量 × 模型能力
 >
 > 欢迎各位继续关注下期课程！
 >
-
-## 本期课程视频
-
-<iframe
-    src="//player.bilibili.com/player.html?bvid=BV1CCAuzRESJ&autoplay=0"
-    scrolling="no"
-    border="0"
-    frameborder="no"
-    framespacing="0"
-    allowfullscreen="true"
-    width="100%"
-    height="500">
-</iframe>
-

@@ -6,6 +6,19 @@
 
 我们想通过这期课程，帮助 AI 爱好者建立“这个想法 / 需求是否适合通过 Agent 来做”的判断能力。比“怎么做 Agent”更重要的是“值不值得做”。
 
+## 本期课程视频
+
+<iframe
+    src="//player.bilibili.com/player.html?bvid=BV1uiDYBvEJ5&autoplay=0"
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true"
+    width="100%"
+    height="500">
+</iframe>
+
 ## 开场：我走过的弯路
 > 这是一个真实的故事。
 >
