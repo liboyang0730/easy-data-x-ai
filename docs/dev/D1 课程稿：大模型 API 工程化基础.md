@@ -7,8 +7,22 @@
 > 在“术篇”的课程中，我们每期都会附带几个 python 文件（例如本文对应的几个 `d1_n_xxx.py`），填上你的 API Key 就可以直接运行。
 >
 
-本期课程使用 **LangChain**（`langchain-openai`）作为开发框架。LangChain 是目前最流行的大模型应用开发框架之一，它在原生 OpenAI SDK 之上提供了更高层的抽象——统一的模型接口、标准化的工具调用、便捷的流式处理——让你用更少的代码做更多的事。更重要的是，当你未来需要切换模型供应商（从 OpenAI 换到 Anthropic、Google 等），LangChain 的代码几乎不用改。
+## 本期课程视频
 
+<iframe
+    src="//player.bilibili.com/player.html?bvid=BV1HKD9B1EBR&autoplay=0"
+    scrolling="no"
+    border="0"
+    frameborder="no"
+    framespacing="0"
+    allowfullscreen="true"
+    width="100%"
+    height="500">
+</iframe>
+
+[📺 点击观看 B站视频](https://www.bilibili.com/video/BV1HKD9B1EBR)
+
+本期课程使用 **LangChain**（`langchain-openai`）作为开发框架。LangChain 是目前最流行的大模型应用开发框架之一，它在原生 OpenAI SDK 之上提供了更高层的抽象——统一的模型接口、标准化的工具调用、便捷的流式处理——让你用更少的代码做更多的事。更重要的是，当你未来需要切换模型供应商（从 OpenAI 换到 Anthropic、Google 等），LangChain 的代码几乎不用改。
 
 > 本期课程涉及的代码，均在 https://github.com/ob-labs/easy-data-x-ai 项目的 code 目录中（欢迎大家 star 和参与课程共建）。
 
