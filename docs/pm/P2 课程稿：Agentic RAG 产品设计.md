@@ -599,7 +599,7 @@ RAGAS 有四类核心评估指标，正好可以和上面的 RAG 流程一一对
 如果你对本期提到的概念想做进一步了解，以下是一些推荐资源：
 
 + **向量数据库**：[浅入了解向量数据库](https://mp.weixin.qq.com/s/T0ucn6UBCL0GExhwuX0S2A)，解释了向量数据库的基本原理，以及一些常见的基础概念。
-+ **混合搜索****：**[**浅入了解混合搜索**](https://mp.weixin.qq.com/s/raBPlHxsVbTTIDUJ5pixLw)**，解释了混合搜索的概念，以及执行流程。**
++ **混合搜索**：[**浅入了解混合搜索**](https://mp.weixin.qq.com/s/raBPlHxsVbTTIDUJ5pixLw)**，解释了混合搜索的概念，以及执行流程。**
 + **seekdb：**[**seekdb 官网**](https://www.seekdb.ai/zh-CN)**，seekdb 的官方文档。**
 + **RAG**：[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)，RAG 的原始论文，清晰解释了“检索 + 生成”的基本思路。
 + **RAG 学习**：
