@@ -57,7 +57,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'P1：AI Agent 场景识别', link: '/pm/P1 课程稿：AI Agent 场景识别' },
-          { text: 'P2：Agentic RAG 产品设计（开发中）', link: '/pm/P2' },
+          { text: 'P2：Agentic RAG 产品设计（开发中）', link: '/pm/P2 课程稿：Agentic RAG 产品设计' },
           { text: 'P3：Agent 记忆系统设计（开发中）', link: '/pm/P3' },
           { text: 'P4：Skill 与知识管理（开发中）', link: '/pm/P4' },
           { text: 'P5：综合案例与度量（开发中）', link: '/pm/P5' }
