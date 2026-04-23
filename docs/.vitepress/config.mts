@@ -58,9 +58,9 @@ export default defineConfig({
         items: [
           { text: 'P1：AI Agent 场景识别', link: '/pm/P1 课程稿：AI Agent 场景识别' },
           { text: 'P2：Agentic RAG 产品设计', link: '/pm/P2 课程稿：Agentic RAG 产品设计' },
-          { text: 'P3：Agent 记忆系统设计（开发中）', link: '/pm/P3' },
-          { text: 'P4：Skill 与知识管理（开发中）', link: '/pm/P4' },
-          { text: 'P5：综合案例与度量（开发中）', link: '/pm/P5' }
+          { text: 'P3：Agent 记忆系统设计', link: '/pm/P3 课程稿：Agent 记忆系统设计' },
+          { text: 'P4：Skill 与 Agent 知识管理', link: '/pm/P4 课程稿：Skill 与 Agent 知识管理' },
+          { text: 'P5：综合案例与度量', link: '/pm/P5 课程稿：综合案例与度量' }
         ]
       },
       {
@@ -68,10 +68,10 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'D1：大模型 API 基础', link: '/dev/D1 课程稿：大模型 API 工程化基础' },
-          { text: 'D2：AI 应用的数据层（开发中）', link: '/dev/D2' },
-          { text: 'D3：Agentic RAG 实战（开发中）', link: '/dev/D3' },
-          { text: 'D4：Agent 开发与记忆系统（开发中）', link: '/dev/D4' },
-          { text: 'D5：Skill、MCP 与综合项目（开发中）', link: '/dev/D5' }
+          { text: 'D2：AI 应用的数据层', link: '/dev/D2 课程稿：AI 应用的数据层' },
+          { text: 'D3：Agentic RAG 实战', link: '/dev/D3 课程稿：Agentic RAG 实战' },
+          { text: 'D4：Agent 开发与记忆系统', link: '/dev/D4 课程稿：Agent 开发与记忆系统' },
+          { text: 'D5：课程总结', link: '/dev/D5 课程稿：课程总结' }
         ]
       }
     ],
