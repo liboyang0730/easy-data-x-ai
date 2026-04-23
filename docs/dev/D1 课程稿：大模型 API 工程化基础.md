@@ -1,6 +1,6 @@
 # D1：大模型 API 基础
 
-> Easy Data x AI 课程 · 开发者路径 · 第一期
+> Easy Data x AI 课程 · 术篇 · 第一期
 >
 > 从这节课开始，“术篇”会和“道篇”分开。“术篇”中的每一节课都会动手跑上几行示例代码——不是教你背 API 文档，而是帮你建立“用代码控制 AI”的工程直觉。
 >
@@ -576,3 +576,12 @@ python3 d1_6_agent.py
 > 术篇：D2 · 知识库构建与混合检索——Tool Use 让 Agent 能“查知识库”，但知识库本身怎么建？数据怎么切分、怎么向量化、怎么检索？我们会用 seekdb 从零构建一个可用的知识库，并实际验证：数据质量的不同，如何直接影响 Agent 回答的质量。
 >
 
+---
+
+欢迎各位老师在 https://github.com/ob-labs/easy-data-x-ai 参与课程共建。
+
+也欢迎各位老师加入 Data x AI 交流群~
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/base_knowledge/F0/F0-20.png" width="200" />
+</div>

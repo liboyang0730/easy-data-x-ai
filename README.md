@@ -63,22 +63,22 @@
 
 <table>
   <thead>
-    <tr><th>篇章</th><th>课程编号</th><th>上线时间</th><th>课程标题</th></tr>
+    <tr><th>篇章</th><th>课程编号</th><th>课程标题</th></tr>
   </thead>
   <tbody>
-    <tr><td rowspan="2">公共基础篇</td><td>F1</td><td>3 / 23</td><td>大模型的本质与边界</td></tr>
-    <tr><td>F2</td><td>3 / 30</td><td>AI Agent 的完整图景</td></tr>
-    <tr><td rowspan="5">道篇</td><td>P1</td><td>4 / 8</td><td>找准 Agent 的用武之地 —— AI Agent 场景识别</td></tr>
-    <tr><td>P2</td><td>4 / 20</td><td>让 Agent 会查资料 —— RAG 产品设计</td></tr>
-    <tr><td>P3</td><td>5 / 6</td><td>让 Agent 真正记住你 —— 记忆系统设计</td></tr>
-    <tr><td>P4</td><td>5 / 18</td><td>把经验变可复用 —— Skill 与知识管理</td></tr>
-    <tr><td>P5</td><td>6 / 1</td><td>用数据验证价值 —— 案例与度量</td></tr>
-    <tr><td rowspan="5">术篇</td><td>D1</td><td>4 / 13</td><td>打通 Agent 与数据 —— 大模型 API 入门</td></tr>
-    <tr><td>D2</td><td>4 / 27</td><td>一个系统搞定 —— 统一 AI Native 数据层实战</td></tr>
-    <tr><td>D3</td><td>5 / 11</td><td>实践出真知 —— Agentic RAG 实战</td></tr>
-    <tr><td>D4</td><td>5 / 25</td><td>记哪些、忘哪些？—— Agent 记忆系统开发</td></tr>
-    <tr><td>D5</td><td>6 / 8</td><td>授 AI 以渔 —— 综合实战，从 Skill 开发到 MCP 标准化</td></tr>
-    <tr><td>结营仪式</td><td></td><td>6 / 15</td><td>结营仪式</td></tr>
+    <tr><td rowspan="2">公共基础篇</td><td>F1</td><td>大模型的本质与边界</td></tr>
+    <tr><td>F2</td><td>AI Agent 的完整图景</td></tr>
+    <tr><td rowspan="5">道篇</td><td>P1</td><td>找准 Agent 的用武之地 —— AI Agent 场景识别</td></tr>
+    <tr><td>P2</td><td>让 Agent 会查资料 —— RAG 产品设计</td></tr>
+    <tr><td>P3</td><td>让 Agent 真正记住你 —— 记忆系统设计</td></tr>
+    <tr><td>P4</td><td>把经验变可复用 —— Skill 与知识管理</td></tr>
+    <tr><td>P5</td><td>用数据验证价值 —— 案例与度量</td></tr>
+    <tr><td rowspan="5">术篇</td><td>D1</td><td>打通 Agent 与数据 —— 大模型 API 入门</td></tr>
+    <tr><td>D2</td><td>一个系统搞定 —— 统一 AI Native 数据层实战</td></tr>
+    <tr><td>D3</td><td>实践出真知 —— Agentic RAG 实战</td></tr>
+    <tr><td>D4</td><td>记哪些、忘哪些？—— Agent 记忆系统开发</td></tr>
+    <tr><td>D5</td><td>授 AI 以渔 —— 综合实战，从 Skill 开发到 MCP 标准化</td></tr>
+    <tr><td>结营仪式</td><td></td><td>结营仪式</td></tr>
   </tbody>
 </table>
 

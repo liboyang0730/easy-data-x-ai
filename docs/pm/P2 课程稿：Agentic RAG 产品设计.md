@@ -1,3 +1,5 @@
+# P2：Agentic RAG 产品设计
+
 > Easy Data x AI 课程 · 道篇 · 第二期
 >
 > 本期是课程最重要的模块之一，会为大家介绍 AI 产品设计中的哪些决策会直接影响用户体验；以及 RAG 数据层中最常见的检索陷阱。
@@ -609,3 +611,12 @@ RAGAS 有四类核心评估指标，正好可以和上面的 RAG 流程一一对
 > **下一期预告**：P3 · Agent 记忆系统设计——为什么大多数 AI 助手“没有记忆”？给 Agent 加记忆，难的不是“存”，而是“该忘什么”。这又是一个看似技术问题、实则产品决策的领域。
 >
 
+---
+
+欢迎各位老师在 https://github.com/ob-labs/easy-data-x-ai 参与课程共建。
+
+也欢迎各位老师加入 Data x AI 交流群~
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ob-labs/easy-data-x-ai/main/docs/public/images/base_knowledge/F0/F0-20.png" width="200" />
+</div>
